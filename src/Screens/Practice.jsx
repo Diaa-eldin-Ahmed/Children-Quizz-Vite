@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import quiz from "../assets/quiz-removebg-preview.png";
+import quiz from "../assets/quiz-removebg-preview (minified).png";
 
 export const Practice = ({ setChildRank }) => {
     const [current, setCurrent] = useState(0);

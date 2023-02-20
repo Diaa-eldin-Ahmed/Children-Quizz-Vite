@@ -1,6 +1,5 @@
 :root {
     --yellow: #f5c32c;
-    /* --yellow: #ffd700; */
     --orange: #fca61f;
     --black: #242d49;
     --gray: #cacbcc;
@@ -43,34 +42,4 @@
     height: 16.4vh;
     margin-top: 27vh;
     width: 16vw;
-    /* border-radius: 3% !important; */
 }
-
-/* @media screen and (max-width: 400px) {
-    .homeBtn {
-        height: 12.4%;
-        margin-top: 111%;
-        width: 46.1%;
-    }
-}
-@media screen and (max-width: 500px) {
-    .homeBtn {
-        height: 12.4%;
-        margin-top: 115%;
-        width: 46.1%;
-    }
-} */
-/* @media screen and (max-width: 913px) {
-    .homeBtn {
-        height: 11.4%;
-        margin-top: 75%;
-        width: 31.1%;
-    }
-} */
-/* @media screen and (max-width: 1300px) {
-    .homeBtn {
-        height: 11.4%;
-        margin-top: 39%;
-        width: 16.1%;
-    }
-} */

@@ -16,46 +16,61 @@
 * {
     box-sizing: border-box;
 }
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: var(--orangeCard);
+.containerImg {
+    display: flex;
+    background-image: url(./assets/school.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+.containerHomeImg {
+    background-image: url(./assets/startPage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
-.container {
-    display: block;
-    text-align: center;
-}
-.img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    left: 24%;
-    top: 5%;
-    width: 20%;
-    border-radius: 10%;
-    margin-top: 5vh;
-}
-@media screen and (max-width: 480px) {
-    .img {
-        width: 35%;
-    }
-}
-/* question word */
 .questionWord {
     color: var(--questionWord);
 }
-.redBtn {
-    background-color: red;
+.body {
+    background-color: var(--blueCard);
 }
-.greenBtn {
-    background-color: green;
+.homeBtn {
+    height: 16.4vh;
+    margin-top: 27vh;
+    width: 16vw;
+    /* border-radius: 3% !important; */
 }
+
+/* @media screen and (max-width: 400px) {
+    .homeBtn {
+        height: 12.4%;
+        margin-top: 111%;
+        width: 46.1%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .homeBtn {
+        height: 12.4%;
+        margin-top: 115%;
+        width: 46.1%;
+    }
+} */
+/* @media screen and (max-width: 913px) {
+    .homeBtn {
+        height: 11.4%;
+        margin-top: 75%;
+        width: 31.1%;
+    }
+} */
+/* @media screen and (max-width: 1300px) {
+    .homeBtn {
+        height: 11.4%;
+        margin-top: 39%;
+        width: 16.1%;
+    }
+} */
